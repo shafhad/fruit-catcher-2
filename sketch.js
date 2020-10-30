@@ -28,7 +28,7 @@ function setup() {
   game.start();
 }
 function draw() {
-  if (fruits.x - players.x < fruits.width/2 + players.width/2
+/*  if (fruits.x - players.x < fruits.width/2 + players.width/2
     && players.x - fruits.x < players.width/2 + fruits.width/2
     && fruits.y - players.y < fruits.height/2 + players.height/2
     && players.y - fruits.y < players.height/2 + fruits.height/2){
@@ -36,7 +36,7 @@ function draw() {
     }
     else {
       fruits.isVisible = true;
-    }
+    }*/
   background(back_img); 
    if (playerCount === 2) {
      game.update(1);
